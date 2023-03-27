@@ -1,7 +1,18 @@
 #include <cstdio> //표준 입출력 헤더파일
 #include<cstdlib> //표준 라이브러리 헤더파일
 #include<ctime> //time과 관련된 헤더파일
-
+int sum_of_N(int n)
+{
+	int sum = 0;
+	for (int i = 0; i < n + 1; i++) {
+		sum = sum + i;
+	}
+	return sum;
+}
+int sum_of_N2(int n)
+{
+	return(n * (n + 1)) / 2;
+}
 int main()
 {
 	clock_t start, finish; //시작시간, 끝나는 시각
@@ -9,6 +20,12 @@ int main()
 
 	start = clock();  //현재 시각을 strat에 저장
 	//실행시간을 측정하고자 하는 코드 입력
+	//1.sum ofN gkatn ghcnf
+	//int sum = sum_of_N(10000000);
+	
+	//2.sum of N2 함수 호출
+	int sum = sum_of_N2(1000000);
+
 	int a = 10 + 20;
 	//...
 
