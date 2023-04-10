@@ -1,2 +1,6 @@
 ﻿  class_example.cpp
-  Chap02_Class.vcxproj -> C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\x64\Debug\Chap02_Class.exe
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class\class_example.cpp(6,12): error C2665: 'Car::Car': 모든 인수 형식을 변환할 수 있는 오버로드된 함수가 없습니다.
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class\car.h(17,2): message : 'Car::Car(int,char *,const char)'일 수 있습니다.
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class\class_example.cpp(6,12): message : 'Car::Car(int,char *,const char)': 인수 2을(를) 'int'에서 'char *'(으)로 변환할 수 없습니다.
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class\class_example.cpp(6,18): message : 정수 계열 형식에서 포인터 형식으로 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class\class_example.cpp(6,12): message : 인수 목록 '(int, int, const char [8])'을(를) 일치시키는 동안

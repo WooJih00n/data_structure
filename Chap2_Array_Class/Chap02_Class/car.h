@@ -14,7 +14,7 @@ public:  //외부 접근 가능
 
 	Car(): speed(0), gear(0), name(""){} //생성자(Constructor)
 	~Car() {}                            //소멸자
-	Car(int s, char* n, int g)
+	Car(int s, char* n, const char g)
 		: speed(s), gear(g) {
 		strcpy_s(name, n); //n을 name 에 copy
 

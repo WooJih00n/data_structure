@@ -3,7 +3,7 @@
 
 int main()
 {
-	Car youCar;
+	Car youCar(100, 4,"yourcar");
 	youCar.display();
 	youCar.whereAmI();
 	youCar.gear = 5;
