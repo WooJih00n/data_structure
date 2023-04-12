@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClInclude Include="birthday.h" />
     <ClInclude Include="Polynomial.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Smarthome.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="소스.cpp" />

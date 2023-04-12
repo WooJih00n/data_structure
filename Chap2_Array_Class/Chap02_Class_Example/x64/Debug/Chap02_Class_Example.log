@@ -1,3 +1,4 @@
 ﻿  소스.cpp
 C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class_Example\Polynomial.h(13,1): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Chap02_Class_Example.vcxproj -> C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\x64\Debug\Chap02_Class_Example.exe
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class_Example\소스.cpp(46,18): error C2661: 'SmartHome::SmartHome': 오버로드된 함수에서 2개의 인수를 사용하지 않습니다.
+C:\Users\전자공학부\Desktop\data_structure\Chap2_Array_Class\Chap02_Class_Example\소스.cpp(46,18): message : 인수 목록 '(const char [7], int)'을(를) 일치시키는 동안
