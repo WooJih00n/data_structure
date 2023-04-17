@@ -2,6 +2,9 @@
 #include "Birthday.h"
 #include"Rectangle.h"
 #include"Smarthome.h"
+#include"Pet.h"
+#include"Music.h"
+
 
 void swap(int& x, int& y)
 {
@@ -42,10 +45,20 @@ int main() {
 	printf("rectangle 1 Area: %lf", r1.getArea());  //printf 사용
 	std::cout << "rectangle 1 Area: " << r1.getArea() << std::endl; //iostream의 cout사용
 	std::cout << "Is square?" << r1.isSquare() << std::endl;
-	*/
+
 	SmartHome myHome("우지훈", 23);
 	myHome.printStatus();
+	*/
+	
+	Pet myPet("Poppy", 6, "dog");
+	cout << "My pet name is" << myPet.getName() << endl;
+	cout << "My pet age is" << myPet.getAge() << endl;
+	Puppy myPuppy("Kong", 4, "dog" > "Puddle");
+	cout << "My pet name is" << myPet.getName() << endl;
+	cout << "My pet age is" << myPet.getAge() << endl;
+	
 
+	MusicStreamingSevice myService("MyMusic");
 
 
 

@@ -12,7 +12,7 @@ private:
 
 public:
 	SmartHome(string owner, int temperature, int humidity, bool security) {
-		this->owner = owner;
+		this->owner = owner;//여기서 왜 this pointer를 쓰는지 이해하기
 		this->temperature = temperature;
 		this->security = security;
 	}
